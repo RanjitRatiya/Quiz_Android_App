@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultActivity">
+
+    <TextView
+        android:id="@+id/congo"
+        android:textSize="50dp"
+        android:maxLines="1"
+        android:textStyle="bold"
+        android:textColor="#E040FB"
+        android:text="Congratulations"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/quover"
+        android:layout_below="@id/congo"
+        android:text="Quiz Over"
+        android:textStyle="italic|bold"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:layout_marginTop="20sp"
+        android:textColor="#9A59C6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/nameperson"
+        android:layout_below="@id/quover"
+        android:layout_marginTop="25sp"
+        android:text="your quiz is Over bro"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/resultmark"
+        android:layout_below="@id/nameperson"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Marks : "
+        android:textStyle="italic"
+        android:textSize="30sp"
+        android:layout_margin="25sp"
+        android:gravity="center"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/startagain"
+        android:layout_below="@id/resultmark"
+        android:text="Start Again"
+        android:textSize="25sp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#CCB6D5"/>
+
+</RelativeLayout>
